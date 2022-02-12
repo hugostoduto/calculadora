@@ -1,9 +1,41 @@
 .calculator {
-  height: 320px;
-  width: 235px;
-  border-radius: 5px;
+  height: 500px;
+  width: 300px;
+  border-radius: 10px;
   overflow: hidden;
   display: grid;
-  grid-template-columns: repeat(4, 25%);
-  grid-template-rows: 1fr 48px 48px 48px 48px 48px;
+  justify-items: center;
+  grid-template-areas: "display" " keyboard";
+  background-color: #14213d;
+  box-shadow: 0px 0px 20px #01040c6c;
+}
+.main-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 80%;
+  grid-area: display;
+  justify-self: center;
+  align-self: center;
+}
+.keyboard {
+  grid-area: keyboard;
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.keys {
+  display: grid;
+  grid-gap: 10px;
+  width: 80%;
+  height: 80%;
+  align-content: center;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: 50px 50px 50px 50px 50px;
 }

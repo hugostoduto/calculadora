@@ -5,15 +5,19 @@
 
 .button {
   font-size: 1.4em;
-  background-color: var(--bg-button);
+  background-color: transparent;
   border: none;
-  border-right: var(--border-button);
-  border-bottom: var(--border-button);
+  background-color: #243761;
+  box-shadow: 0px 0px 15px #01040c;
   outline: none;
   cursor: pointer;
+  border-radius: 10px;
+  height: 50px;
+  width: 100%;
+  color: #e5e5e5;
 }
 .button:active {
-  background-color: #ccc;
+  box-shadow: inset 0px 0px 15px #01040c;
 }
 .button.double {
   grid-column: span 2;
@@ -22,7 +26,7 @@
   grid-column: span 3;
 }
 .button.operation {
-  background-color: #fa8231;
+  background-color: #fca311;
   color: #ffffff;
 }
 .button.operation:active {

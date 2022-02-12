@@ -1,10 +1,16 @@
 .display {
-  grid-column: span 4;
-  background-color: #00000094;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 20px;
   font-size: 2.1em;
   overflow: hidden;
+  width: 100%;
+  height: 120px;
+  background-color: #243761;
+  box-shadow: 0px 0px 20px #01040c;
+  color: #e5e5e5;
+  border-radius: 5px;
+}
+p {
+  margin-right: 10px;
 }
