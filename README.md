@@ -12,4 +12,5 @@ Um projeto simples para aplicar e praticar os conhecimentos.
 
 ## Screenshots
 
+![](Assets/print-2.gif)
 ![](Assets/print-1.jpg)
