@@ -1,6 +1,6 @@
 # Calculadora Simple em React
 
-Um projeto simples para aplicar e paraticar os conhecimentos.
+Um projeto simples para aplicar e praticar os conhecimentos.
 
 ## Stack utilizada
 
@@ -12,4 +12,4 @@ Um projeto simples para aplicar e paraticar os conhecimentos.
 
 ## Screenshots
 
-![](public/screenshot1.jpg)
+![](Assets/screenshot1.jpg)
