@@ -12,4 +12,4 @@ Um projeto simples para aplicar e paraticar os conhecimentos.
 
 ## Screenshots
 
-![App Screenshot]('public\print-1.jpg')
+![](public/screenshot1.jpg)
