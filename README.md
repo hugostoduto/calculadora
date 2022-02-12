@@ -12,4 +12,4 @@ Um projeto simples para aplicar e praticar os conhecimentos.
 
 ## Screenshots
 
-![](Assets/screenshot1.jpg)
+![](Assets/print-1.jpg)
